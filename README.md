@@ -1,5 +1,5 @@
 # Simple-Caro-LAN-Game
-Simple Caro game
+Simple Caro game<br/>
 a JavaFX FXML application
 the only while loops can be found under the thread that maintain the connection
 
