@@ -1,0 +1,22 @@
+.root{
+}
+.button{
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-border-color: #999999;
+}
+.menu-button{
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-border-color: #999999;
+}
+.menu-item{
+    -fx-border-color: #999999;
+}
+.text-field{
+}
+.label{
+}
+#CaroGame{
+    -fx-text-fill: #555555;
+}

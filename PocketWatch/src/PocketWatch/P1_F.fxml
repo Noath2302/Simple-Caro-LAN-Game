@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PocketWatch.P1_C">
+   <children>
+      <Label fx:id="CaroGame" layoutX="61.0" layoutY="36.0" text="Caro Game">
+         <font>
+            <Font name="Consolas Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="100.0" text="Name" />
+      <Label layoutX="52.0" layoutY="129.0" text="Port" />
+      <Label fx:id="playerRoleLabel" layoutX="126.0" layoutY="165.0" text="Your role" />
+      <MenuButton layoutX="46.0" layoutY="161.0" mnemonicParsing="false" text="Role">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#serverClicked" text="Server" />
+          <MenuItem mnemonicParsing="false" onAction="#clientClicked" text="Client" />
+        </items>
+      </MenuButton>
+      <TextField fx:id="playerNameField" layoutX="93.0" layoutY="96.0" promptText="Your Name" />
+      <TextField fx:id="portNumberField" layoutX="93.0" layoutY="125.0" promptText="Port Number" />
+      <Button layoutX="99.0" layoutY="233.0" mnemonicParsing="false" onAction="#startClicked" text="Start" />
+      <Button layoutX="155.0" layoutY="233.0" mnemonicParsing="false" onAction="#exitClicked" text="Exit" />
+      <MenuButton layoutX="45.0" layoutY="194.0" mnemonicParsing="false" text="Style">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#lightTheme" text="Light" />
+          <MenuItem mnemonicParsing="false" onAction="#darkTheme" text="Dark" />
+            <MenuItem mnemonicParsing="false" onAction="#sepiaTheme" text="Sepia" />
+            <MenuItem mnemonicParsing="false" onAction="#germaTheme" text="Germa" />
+        </items>
+      </MenuButton>
+      <TextField fx:id="hostField" layoutX="126.0" layoutY="194.0" prefHeight="25.0" prefWidth="118.0" promptText="host IP/host name" />
+      <Label fx:id="host" layoutX="126.0" layoutY="198.0" text="Label" />
+   </children>
+</AnchorPane>

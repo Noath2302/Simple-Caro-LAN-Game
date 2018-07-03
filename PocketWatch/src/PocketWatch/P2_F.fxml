@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PocketWatch.P2_C">
+   <children>
+      <AnchorPane fx:id="anchorPane" layoutX="400.0" prefHeight="400.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="Turn" layoutX="74.0" layoutY="117.0" text="Turn">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label fx:id="caroGame" layoutX="11.0" layoutY="39.0" text="Caro Game">
+               <font>
+                  <Font name="Consolas Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="roleLabel" layoutX="75.0" layoutY="210.0" text="CLIENT">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <MenuButton layoutX="72.0" layoutY="252.0" mnemonicParsing="false" text="Style">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#lightTheme" text="Light" />
+                  <MenuItem mnemonicParsing="false" onAction="#darkTheme" text="Dark" />
+                  <MenuItem mnemonicParsing="false" onAction="#sepiaTheme" text="Sepia" />
+                  <MenuItem mnemonicParsing="false" onAction="#germaTheme" text="Germa" />
+               </items>
+            </MenuButton>
+            <Button layoutX="69.0" layoutY="312.0" mnemonicParsing="false" onAction="#concedeClicked" text="Concede" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

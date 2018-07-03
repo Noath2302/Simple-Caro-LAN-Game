@@ -1,0 +1,33 @@
+.root{
+    -fx-background-color:#581845;
+}
+.button{
+    -fx-background-color:#900C3F;
+    -fx-text-fill:#FF5733;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-border-color: #C70039;
+}
+.menu-button{
+    -fx-background-color:#900C3F;
+    -fx-text-fill:#FF5733;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-border-color: #C70039;
+}
+.menu-item{
+    -fx-background-color:#900C3F;
+    -fx-text-fill:#FF5733;
+    -fx-border-color: #C70039;
+}
+.text-field{
+    -fx-background-color:#C70039;
+    -fx-text-fill:#FFC300;
+    -fx-prompt-text-fill: #FFC300;
+}
+.label{
+    -fx-text-fill: #FF5733;
+}
+#CaroGame{
+    -fx-text-fill: #FFC300;
+}
