@@ -2,6 +2,7 @@
 Simple Caro game<br/>
 a JavaFX FXML application<br/>
 the only while loops can be found under the thread that maintain the connection</br>
+![menu state](https://github.com/Noath2302/Simple-Checker-LAN-Game/blob/master/samplePic/menu.png?raw=true)  ![menu state](https://github.com/Noath2302/Simple-Checker-LAN-Game/blob/master/samplePic/menu_1.png?raw=true)  ![menu state](https://github.com/Noath2302/Simple-Checker-LAN-Game/blob/master/samplePic/menu_2.png?raw=true)  ![menu state](https://github.com/Noath2302/Simple-Checker-LAN-Game/blob/master/samplePic/menu_3.png?raw=true)  
 
 # Some Basic Info
 1.The game was made with InteliJ IDE<br/>
@@ -14,7 +15,9 @@ the only while loops can be found under the thread that maintain the connection<
 6.if anything crash, open Task Manager and "end task" the game<br/>
   you should also "end task" Java SE Library in case it crash (or you want to end the Server waiting)<br/>
   The Client cannot crash when connecting, if it doesn't find any host,it will be back to the welcome scene<br/>
-
+  
+![in game](https://github.com/Noath2302/Simple-Checker-LAN-Game/blob/master/samplePic/game_1.png?raw=true)
+![end game](https://github.com/Noath2302/Simple-Checker-LAN-Game/blob/master/samplePic/lose.png?raw=true)  
 
 # How to play
 1.Start the Game (either in Intelij IDE, <br/>
